@@ -3,6 +3,8 @@ variable "aws_region" {
     description = "my region"
     default = "us-east-1"
 }
+variable "main_vpc_cidr_block" {
+    type = string
     description = "my main vpc cidr block terra vpc"
     default = "10.0.0.0/16"
 }
